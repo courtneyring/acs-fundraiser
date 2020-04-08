@@ -1,0 +1,78 @@
+:host {
+    height: 100%;
+    width: 100%;
+}
+
+
+.hero {
+    background-image: url('../../../assets/images/landing-background.png');
+    background-position: 100% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    position: absolute;
+    left: 5%;
+    top: 20%
+}
+
+.headline {
+    color: #e0485d;
+    font-size: 50px;
+    margin-bottom: 80px;
+}
+
+.stats {
+    justify-content: flex-start;
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.stats__group {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 60px;
+
+    &:first-child {
+        margin-left: 0px;
+    }
+
+    &:last-child {
+        margin-right: 0px;
+    }
+}
+
+.stats__value {
+    color: white;
+    // font-family: 'Courier Prime', monospace;
+    font-size: 90px;
+}
+
+.stats__label {
+    color: white;
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
+.cta {
+    align-self: flex-start;
+    
+
+    
+
+}
+
+.button-group{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 430px;
+}

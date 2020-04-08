@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Muli:wght@300;500&family=Roboto+Mono:wght@500&display=swap');
+
+* {
+    font-family: 'Muli', sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+
+.button {
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    font-size: 22px;
+    height: 50px;
+    justify-content: center;
+    width: 200px;
+}
+
+.button--filled {
+    @extend .button;
+    background-color: #e0485d;
+    color: white;
+
+    &:hover {
+        background-color: #A00F23;
+    }
+
+}
+
+.button--hollow {
+    @extend .button;
+    border: 1px solid #e0485d;
+    color: #e0485d;
+
+    &:hover {
+        border-color: #A00F23;
+        color: #A00F23;
+    }
+}
